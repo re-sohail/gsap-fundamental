@@ -1,5 +1,11 @@
+import BgLayout from '@/layouts/bg-layout';
+
 function ToPage() {
-  return <div>To Page</div>;
+  return (
+    <BgLayout>
+      <div>To Page</div>
+    </BgLayout>
+  );
 }
 
 export default ToPage;

@@ -1,5 +1,11 @@
+import BgLayout from '@/layouts/bg-layout';
+
 function ScrollTriggerPage() {
-  return <div>Scroll Trigger Page</div>;
+  return (
+    <BgLayout>
+      <div>Scroll Trigger Page</div>
+    </BgLayout>
+  );
 }
 
 export default ScrollTriggerPage;
